@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		5B28C53D2CE512CC00B80471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C53C2CE512CC00B80471 /* AppDelegate.swift */; };
 		5B28C53F2CE512CC00B80471 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C53E2CE512CC00B80471 /* SceneDelegate.swift */; };
-		5B28C5412CE512CC00B80471 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C5402CE512CC00B80471 /* MainViewController.swift */; };
+		5B28C5412CE512CC00B80471 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C5402CE512CC00B80471 /* LoginViewController.swift */; };
 		5B28C5462CE512CE00B80471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B28C5452CE512CE00B80471 /* Assets.xcassets */; };
 		5B28C5492CE512CE00B80471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B28C5472CE512CE00B80471 /* LaunchScreen.storyboard */; };
+		5BC434532CEBA21A00C2998E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434522CEBA21A00C2998E /* RegisterViewController.swift */; };
+		5BC434552CEBA27600C2998E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434542CEBA27600C2998E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B28C5392CE512CC00B80471 /* IStartggApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IStartggApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B28C53C2CE512CC00B80471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B28C53E2CE512CC00B80471 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B28C5402CE512CC00B80471 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5B28C5402CE512CC00B80471 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5B28C5452CE512CE00B80471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B28C5482CE512CE00B80471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B28C54A2CE512CE00B80471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC434522CEBA21A00C2998E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5BC434542CEBA27600C2998E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				5B28C53C2CE512CC00B80471 /* AppDelegate.swift */,
 				5B28C53E2CE512CC00B80471 /* SceneDelegate.swift */,
-				5B28C5402CE512CC00B80471 /* MainViewController.swift */,
+				5BC434542CEBA27600C2998E /* MainViewController.swift */,
+				5B28C5402CE512CC00B80471 /* LoginViewController.swift */,
+				5BC434522CEBA21A00C2998E /* RegisterViewController.swift */,
 				5B28C5452CE512CE00B80471 /* Assets.xcassets */,
 				5B28C5472CE512CE00B80471 /* LaunchScreen.storyboard */,
 				5B28C54A2CE512CE00B80471 /* Info.plist */,
@@ -134,9 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B28C5412CE512CC00B80471 /* MainViewController.swift in Sources */,
+				5B28C5412CE512CC00B80471 /* LoginViewController.swift in Sources */,
 				5B28C53D2CE512CC00B80471 /* AppDelegate.swift in Sources */,
 				5B28C53F2CE512CC00B80471 /* SceneDelegate.swift in Sources */,
+				5BC434532CEBA21A00C2998E /* RegisterViewController.swift in Sources */,
+				5BC434552CEBA27600C2998E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
